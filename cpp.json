@@ -39,9 +39,13 @@
 		"body": [
 			"#include <bits/stdc++.h>",
 			"",
+			"using int8 = signed char;",
+			"using int16 = short;",
 			"using int32 = int;",
 			"using int64 = long long;",
 			"",
+			"using uint8 = unsigned int8;",
+			"using uint16 = unsigned int16;",
 			"using uint32 = unsigned int32;",
 			"using uint64 = unsigned int64;",
 			"",

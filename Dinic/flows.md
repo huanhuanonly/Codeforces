@@ -14,7 +14,7 @@
 
 ### 有源上下界可行流
 
-> _link_ $T\rightarrow^{inf}_0{S}$ 构成 `循环流`
+> _Link_ $T\rightarrow^{inf}_0{S}$ 构成 `循环流`
 > 源汇不需要满足 `流量守恒`，直接转换成 *无源上下界可行流*
 
 ### 有源上下界最大流
@@ -56,7 +56,7 @@ for (int i = 1; i <= m; ++i)
 ```
 > 这同等于从 $u$ 输送了 $\vert{cost}\vert$ 的流量到 $v$，但是为了 `流量守恒`，需要从 $v$ 送回 $\vert{cost}\vert$ 的流量到 $u$  
 > 新建一个源点 $s$ 和汇点 $t$， 然后
->> _link_ $s\rightarrow{v}$ and $u\rightarrow{t}$ 
+>> _Link_ $s\rightarrow{v}$ and $u\rightarrow{t}$ 
 ```c++
 for (int i = 1; i <= n; ++i)
 {

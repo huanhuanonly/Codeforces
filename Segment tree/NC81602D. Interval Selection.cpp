@@ -5,7 +5,7 @@
  * 
  * -> https://ac.nowcoder.com/acm/contest/81602/D
  * 
- * @b Segment-tree for find the minimum value and its count
+ * @b Segment-tree to find the minimum value of interval and its count
 */
 
 #include <bits/stdc++.h>

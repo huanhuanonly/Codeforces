@@ -1,12 +1,23 @@
+/**
+ * Educational DP Contest
+ * 
+ * => F - LCS ( @c 100 )
+ * 
+ * -> https://atcoder.jp/contests/dp/tasks/dp_f
+ * 
+ * Submissions ~> https://atcoder.jp/contests/dp/submissions/51019023 By huanhuanonly
+ * 
+ * @b DP for @a Longest-Common-Subsequence
+ * 
+ * ----April 15, 2025 [21h:35m:57s]----
+*/
+
 #include <bits/stdc++.h>
 
 using uint    = unsigned int;
 using llong   = long long int;
 using ullong  = unsigned long long int;
 using ldouble = long double;
-
-// Longest Common Subsequence
-// https://atcoder.jp/contests/dp/tasks/dp_f
 
 int main(void)
 {

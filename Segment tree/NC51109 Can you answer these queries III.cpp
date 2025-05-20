@@ -3,7 +3,7 @@
  * 
  * -> https://ac.nowcoder.com/acm/problem/51109
  * 
- * @b Segment-tree for Maximum sum of sub-segments in the interval
+ * @b Segment-tree to find the maximum sub-segment sum of interval
 */
 
 #include <bits/stdc++.h>

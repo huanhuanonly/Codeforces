@@ -1,13 +1,13 @@
 /**
  * Codeforces Round 1016 (Div. 3)
  * 
- * => E. Min Max MEX ( @c Rating )
+ * => E. Min Max MEX ( @c 1500 )
  * 
  * -> https://codeforces.com/contest/2093/problem/E
  * 
  * Submissions ~> https://codeforces.com/contest/2093/submission/314956185 By huanhuanonly
  * 
- * @b BinarySearch
+ * @b Binary-search
  * 
  * ----April 11, 2025 [12h:46m:40s]----
 */

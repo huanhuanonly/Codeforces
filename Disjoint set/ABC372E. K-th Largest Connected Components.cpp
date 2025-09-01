@@ -1,11 +1,15 @@
 /**
  * UNIQUE VISION Programming Contest 2024 Autumn (AtCoder Beginner Contest 372)
  * 
- * => E - K-th Largest Connected Components
+ * => E - K-th Largest Connected Components ( @c 475 )
  * 
  * -> https://atcoder.jp/contests/abc372/tasks/abc372_e
  * 
+ * Submissions ~> https://atcoder.jp/contests/abc372/submissions/58024100 By huanhuanonly
+ * 
  * @b Disjoint-set
+ * 
+ * ----September 22, 2024 [20h:18m:32s]----
 */
 
 #include <bits/stdc++.h>

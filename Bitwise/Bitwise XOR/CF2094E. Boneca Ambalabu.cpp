@@ -1,7 +1,7 @@
 /**
  * Codeforces Round 1017 (Div. 4)
  * 
- * => E. Boneca Ambalabu ( @c Rating )
+ * => E. Boneca Ambalabu ( @c 1200 )
  * 
  * -> https://codeforces.com/contest/2094/problem/E
  * 

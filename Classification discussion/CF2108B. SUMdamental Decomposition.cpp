@@ -1,7 +1,7 @@
 /**
  * Codeforces Round 1022 (Div. 2)
  * 
- * => B. SUMdamental Decomposition ( @c Rating )
+ * => B. SUMdamental Decomposition ( @c 1300 )
  * 
  * -> https://codeforces.com/contest/2108/problem/B
  * 

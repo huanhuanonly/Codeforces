@@ -1,11 +1,15 @@
 /**
  * Codeforces Round 257 (Div. 1)
  * 
- * => B. Jzzhu and Cities
+ * => B. Jzzhu and Cities ( @c 2000 )
  * 
- * -> https://codeforces.com/problemset/problem/449/B (2000)
+ * -> https://codeforces.com/contest/449/problem/B
+ * 
+ * Submissions ~> https://codeforces.com/contest/449/submission/249435351 By huanhuanonly
  * 
  * @b Dijkstra
+ * 
+ * ----March 03, 2024 [21h:28m:21s]----
 */
 
 #include <bits/stdc++.h>

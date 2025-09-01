@@ -1,7 +1,7 @@
 /**
  * Codeforces Round 1016 (Div. 3)
  * 
- * => G. Shorten the Array ( @c Rating )
+ * => G. Shorten the Array ( @c 1900 )
  * 
  * -> https://codeforces.com/contest/2093/problem/G
  * 

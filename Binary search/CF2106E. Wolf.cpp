@@ -1,13 +1,13 @@
 /**
  * Codeforces Round 1020 (Div. 3)
  * 
- * => E. Wolf ( @c Rating )
+ * => E. Wolf ( @c 1800 )
  * 
  * -> https://codeforces.com/contest/2106/problem/E
  * 
  * Submissions ~> https://codeforces.com/contest/2106/submission/317136077 By huanhuanonly
  * 
- * @b Simulate-BinarySearch
+ * @b Binary-search-simulation
  * 
  * ----April 25, 2025 [14h:29m:57s]----
 */

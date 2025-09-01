@@ -1,9 +1,13 @@
 /**
- * => P2756 飞行员配对方案问题
+ * => P2756 飞行员配对方案问题 ( @c 普及+/提高 )
  * 
  * -> https://www.luogu.com.cn/problem/P2756
  * 
+ * Submissions ~> https://www.luogu.com.cn/record/158948008 By huanhuanonly
+ * 
  * @b Bipartite-graph
+ * 
+ * ----May 014, 2024 [09h:09m:16s]----
 */
 
 #include <bits/stdc++.h>

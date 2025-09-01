@@ -7,7 +7,7 @@
  * 
  * Submissions ~> https://codeforces.com/contest/2044/submission/315650233 By huanhuanonly
  * 
- * @b BinarySearch
+ * @b Binary-search
  * 
  * ----April 15, 2025 [11h:05m:24s]----
 */

@@ -7,7 +7,7 @@
  * 
  * Submissions ~> https://codeforces.com/contest/2044/submission/315801137 By huanhuanonly
  * 
- * @b Prefix-sum
+ * @b 2D-Prefix-sum
  * 
  * ----April 16, 2025 [16h:07m:38s]----
 */

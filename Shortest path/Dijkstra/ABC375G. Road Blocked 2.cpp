@@ -1,13 +1,15 @@
 /**
  * Panasonic Programming Contest 2024（AtCoder Beginner Contest 375）
  * 
- * => G - Road Blocked 2
+ * => G - Road Blocked 2 ( @c 575 )
  * 
- * -> https://atcoder.jp/contests/abc375/tasks/abc375_g ( @c 575 )
+ * -> https://atcoder.jp/contests/abc375/tasks/abc375_g
  * 
  * Submissions ~> https://atcoder.jp/contests/abc375/submissions/59324087 By huanhuanonly
  * 
- * @b Dijkstra @a Find-meeting-point
+ * @b Dijkstra ( @a Find-meeting-point )
+ * 
+ * ----November 01, 2024 [20h:22m:18s]----
 */
 
 #pragma GCC optimize("Ofast,unroll-loops")

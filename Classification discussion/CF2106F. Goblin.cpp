@@ -1,7 +1,7 @@
 /**
  * Codeforces Round 1020 (Div. 3)
  * 
- * => F. Goblin ( @c Rating )
+ * => F. Goblin ( @c 1900 )
  * 
  * -> https://codeforces.com/contest/2106/problem/F
  * 

@@ -1,7 +1,7 @@
 /**
  * Codeforces Round 1017 (Div. 4)
  * 
- * => G. Chimpanzini Bananini ( @c Rating )
+ * => G. Chimpanzini Bananini ( @c 1700 )
  * 
  * -> https://codeforces.com/contest/2094/problem/G
  * 

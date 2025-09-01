@@ -1,13 +1,13 @@
 /**
  * Codeforces Round 1023 (Div. 2)
  * 
- * => C. Maximum Subarray Sum ( @c Rating )
+ * => C. Maximum Subarray Sum ( @c 1500 )
  * 
  * -> https://codeforces.com/contest/2107/problem/C
  * 
  * Submissions ~> https://codeforces.com/contest/2107/submission/318713428 By huanhuanonly
  * 
- * @b BinarySearch
+ * @b Binary-search
  * 
  * ----May 07, 2025 [18h:33m:34s]----
 */

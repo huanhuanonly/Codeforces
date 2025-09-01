@@ -1,7 +1,7 @@
 /**
  * Educational Codeforces Round 178 (Rated for Div. 2)
  * 
- * => E. Unpleasant Strings ( @c Rating )
+ * => E. Unpleasant Strings ( @c 1700 )
  * 
  * -> https://codeforces.com/contest/2104/problem/E
  * 

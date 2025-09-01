@@ -1,13 +1,17 @@
 /**
  * Codeforces Round 446 (Div. 1)
  * 
- * => C. Envy
+ * => C. Envy ( @c 2300 )
  * 
- * -> https://codeforces.com/problemset/problem/891/C (2300)
+ * -> https://codeforces.com/contest/891/problem/C
  * 
- * @b DisjointSet_with_undo
+ * Submissions ~> https://codeforces.com/contest/891/submission/263213556 By huanhuanonly
  * 
- * @see https://zhuanlan.zhihu.com/p/538166784
+ * @b Disjoint-set ( @a with-undo )
+ * 
+ * ----May 30, 2024 [11h:46m:56s]----
+ * 
+ * @see also https://zhuanlan.zhihu.com/p/538166784
 */
 
 #include <bits/stdc++.h>

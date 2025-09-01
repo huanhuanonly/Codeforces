@@ -7,7 +7,7 @@
  * 
  * Submissions ~> https://codeforces.com/gym/104369/submission/319515688 By huanhuanonly
  * 
- * @b BinarySearch
+ * @b Binary-search
  * 
  * ----May 14, 2025 [19h:41m:04s]----
 */

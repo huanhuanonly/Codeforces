@@ -1,11 +1,15 @@
 /**
  * Codeforces Round 372 (Div. 1)
  * 
- * => B. Complete The Graph
+ * => B. Complete The Graph ( @c 2300 )
  * 
- * -> https://codeforces.com/problemset/problem/715/B (2300)
+ * -> https://codeforces.com/contest/715/problem/B
+ * 
+ * Submissions ~> https://codeforces.com/contest/716/submission/271853166 By huanhuanonly
  * 
  * @b Dijkstra
+ * 
+ * ----July 22, 2024 [11h:06m:05s]----
 */
 
 #include <bits/stdc++.h>

@@ -1,11 +1,15 @@
 /**
  * Codeforces Round 805 (Div. 3)
  * 
- * => E. Split Into Two Sets
+ * => E. Split Into Two Sets ( @c 1600 )
  * 
- * -> https://codeforces.com/problemset/problem/1702/E (1600)
+ * -> https://codeforces.com/problemset/problem/1702/E
+ * 
+ * Submissions ~> https://codeforces.com/contest/1702/submission/264248149 By huanhuanonly
  * 
  * @b Extended-domain-Disjoint-set
+ * 
+ * ----June 05, 2024 [14h:06m:32s]----
 */
 
 #include <bits/stdc++.h>

@@ -1,7 +1,7 @@
 /**
  * Codeforces Round 1020 (Div. 3)
  * 
- * => G1. Baudelaire (easy version) ( @c Rating )
+ * => G1. Baudelaire (easy version) ( @c 2200 )
  * 
  * -> https://codeforces.com/contest/2106/problem/G1
  * 

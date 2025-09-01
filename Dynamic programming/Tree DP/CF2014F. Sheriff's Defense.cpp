@@ -1,11 +1,15 @@
 /**
  * Codeforces Round 974 (Div. 3)
  * 
- * => F. Sheriff's Defense
+ * => F. Sheriff's Defense ( @c 2000 )
  * 
- * -> https://codeforces.com/contest/2014/problems
+ * -> https://codeforces.com/contest/2014/problem/F
+ * 
+ * Submissions ~> https://codeforces.com/contest/2014/submission/282773243 By huanhuanonly
  * 
  * @b Tree-DP
+ * 
+ * ----September 26, 2024 [20h:47m:52s]----
 */
 
 #include <bits/stdc++.h>

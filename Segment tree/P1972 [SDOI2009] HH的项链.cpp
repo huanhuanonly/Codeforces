@@ -5,7 +5,7 @@
  * 
  * Submissions ~> https://www.luogu.com.cn/record/214757704 By huanhuanonly
  * 
- * @b Segment-tree and @b offline
+ * @b Segment-tree and @b Offline
  * 
  * ----April 22, 2025 [22h:08m:21s]----
 */

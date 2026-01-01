@@ -7,7 +7,7 @@
  * 
  * Submissions ~> https://codeforces.com/contest/1899/submission/234032338 By huanhuanonly
  * 
- * @b MergeSortTree
+ * @b Merge-sort-tree
  * 
  * ----November 24, 2023 [15h:16m:51s]----
 */

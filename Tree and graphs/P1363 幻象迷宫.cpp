@@ -1,9 +1,13 @@
 /**
- * => P1363 幻象迷宫
+ * => P1363 幻象迷宫 ( @c 普及+/提高 )
  * 
  * -> https://www.luogu.com.cn/problem/P1363
  * 
+ * Submissions ~> https://www.luogu.com.cn/record/165648441 By huanhuanonly
+ * 
  * @b Bfs
+ * 
+ * ----July 13, 2024 [10h:42m:03s]----
 */
 
 #include <bits/stdc++.h>

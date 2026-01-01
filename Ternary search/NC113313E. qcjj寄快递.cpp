@@ -7,7 +7,7 @@
  * 
  * Submissions ~> https://ac.nowcoder.com/acm/contest/view-submission?submissionId=78338829 By huanhuanonly
  * 
- * @b TernarySearch on real numbers to find the minimum of a unimodal function (decreasing then increasing)
+ * @b Ternary-search on real numbers to find the minimum of a unimodal function (decreasing then increasing)
  * 
  * ----July 20, 2025 [20h:26m:11s]----
 */

@@ -1,7 +1,7 @@
 /**
  * Codeforces Round 1046 (Div. 2)
  * 
- * => D. For the Champion ( @c Rating )
+ * => D. For the Champion ( @c 1700 )
  * 
  * -> https://codeforces.com/contest/2136/problem/D
  * 

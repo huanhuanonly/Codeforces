@@ -1,9 +1,13 @@
 /**
- * => P3919 【模板】可持久化线段树 1（可持久化数组）
+ * => P3919 【模板】可持久化线段树 1（可持久化数组） ( @c 提高+/省选− )
  * 
  * -> https://www.luogu.com.cn/problem/P3919
  * 
- * @b Persistent--Segment-tree
+ * Submissions ~> https://www.luogu.com.cn/record/143512449 By huanhuanonly
+ * 
+ * @b Persistent-segment-tree
+ * 
+ * ----January 20, 2024 [14h:47m:39s]----
 */
 
 #include <bits/stdc++.h>

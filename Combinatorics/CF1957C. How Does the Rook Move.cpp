@@ -7,7 +7,7 @@
  * 
  * Submissions ~> https://codeforces.com/contest/1957/submission/318828606 By huanhuanonly
  * 
- * @b Combinatorics and @b Linear-DP
+ * @b Combinatorics and @b Counting-DP
  * 
  * ----May 08, 2025 [21h:00m:50s]----
 */

@@ -1,7 +1,7 @@
 /**
  * The 2023 Guangdong Provincial Collegiate Programming Contest
  * 
- * => K. Peg Solitaire ( @c Rating )
+ * => K. Peg Solitaire
  * 
  * -> https://codeforces.com/gym/104369/problem/K
  * 

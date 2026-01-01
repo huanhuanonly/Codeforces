@@ -1,9 +1,13 @@
 /**
- * => P1384 高级打字机
+ * => P1383 高级打字机 ( @c 提高+/省选− )
  * 
  * -> https://www.luogu.com.cn/problem/P1383
  * 
- * @b Persistent--Segment-tree
+ * Submissions ~> https://www.luogu.com.cn/record/139636608 By huanhuanonly
+ * 
+ * @b Persistent-segment-tree
+ * 
+ * ----December 15, 2023 [10h:09m:09s]----
 */
 
 #include <bits/stdc++.h>

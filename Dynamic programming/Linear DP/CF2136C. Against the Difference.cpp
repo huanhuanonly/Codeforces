@@ -1,7 +1,7 @@
 /**
  * Codeforces Round 1046 (Div. 2)
  * 
- * => C. Against the Difference ( @c Rating )
+ * => C. Against the Difference ( @c 1200 )
  * 
  * -> https://codeforces.com/contest/2136/problem/C
  * 

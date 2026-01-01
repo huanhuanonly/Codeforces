@@ -1,11 +1,17 @@
 /**
  * Codeforces Round 943 (Div. 3)
  * 
- * => G2. Division + LCP (hard version)
+ * => G2. Division + LCP (hard version) ( @c 2200 )
  * 
- * -> https://codeforces.com/problemset/problem/1968/G2 (2200)
+ * -> https://codeforces.com/contest/1968/problem/G2
  * 
- * @b Z-Function with @b Binary_search, and @b Divide_and_conquer
+ * Submissions ~> https://codeforces.com/contest/1968/submission/260247339 By huanhuanonly
+ * 
+ * @b Z-Function
+ * @b Binary-search
+ * @b Divide-and-conquer
+ * 
+ * ----May 10, 2024 [20h:05m:46s]----
 */
 
 #include <bits/stdc++.h>

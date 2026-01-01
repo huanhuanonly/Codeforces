@@ -1,7 +1,7 @@
 /**
  * Codeforces Round 1016 (Div. 3)
  * 
- * => F. Hackers and Neural Networks ( @c Rating )
+ * => F. Hackers and Neural Networks ( @c 1800 )
  * 
  * -> https://codeforces.com/contest/2093/problem/F
  * 

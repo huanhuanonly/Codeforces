@@ -7,7 +7,7 @@
  * 
  * Submissions ~> https://atcoder.jp/contests/abc415/submissions/67763671 By huanhuanonly
  * 
- * @b SPFA and @b BinarySearch
+ * @b SPFA and @b Binary-search
  * 
  * ----July 19, 2025 [22h:27m:15s]----
 */

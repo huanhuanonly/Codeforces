@@ -7,7 +7,7 @@
  * 
  * Submissions ~> https://codeforces.com/contest/1139/submission/329033125 By huanhuanonly
  * 
- * @b Combinatorics and @b DisjointSet
+ * @b Combinatorics and @b Disjoint-set
  * 
  * ----July 15, 2025 [17h:13m:03s]----
 */

@@ -1,9 +1,13 @@
 /**
- * => P3834 【模板】可持久化线段树 2
+ * => P3834 【模板】可持久化线段树 2 ( @c 提高+/省选− )
  * 
  * -> https://www.luogu.com.cn/problem/P3834
  * 
- * @b Persistent--Segment-tree
+ * Submissions ~> https://www.luogu.com.cn/record/145095462 By huanhuanonly
+ * 
+ * @b Persistent-segment-tree
+ * 
+ * ----January 29, 2024 [22h:50m:37s]----
 */
 
 #include <bits/stdc++.h>

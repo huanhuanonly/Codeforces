@@ -1,7 +1,7 @@
 /**
  * Codeforces Round 1044 (Div. 2)
  * 
- * => E. I Yearned For The Mines ( @c Rating )
+ * => E. I Yearned For The Mines ( @c 2500 )
  * 
  * -> https://codeforces.com/contest/2133/problem/E
  * 

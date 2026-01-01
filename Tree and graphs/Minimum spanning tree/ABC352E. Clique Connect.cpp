@@ -7,7 +7,7 @@
  * 
  * Submissions ~> https://atcoder.jp/contests/abc352/submissions/53134909 By huanhuanonly
  * 
- * @b Minimum-spanning-tree ( @a disjoint-set )
+ * @b Minimum-spanning-tree ( @a Kruskal’s-algorithm )
  * 
  * ----May 04, 2024 [21h:28m:35s]----
 */

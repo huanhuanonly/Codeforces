@@ -1,7 +1,7 @@
 /**
  * Codeforces Round 1024 (Div. 2)
  * 
- * => C. Mex in the Grid ( @c Rating )
+ * => C. Mex in the Grid ( @c 1300 )
  * 
  * -> https://codeforces.com/contest/2102/problem/C
  * 

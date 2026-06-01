@@ -10,7 +10,6 @@ prime_factorization_with_exponents(_Tp __n)
         {
             for (auto& c = res[i]; __n % i == 0; __n /= i, ++c);
         }
-
     }
 
     if (__n != 1)

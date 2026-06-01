@@ -1,14 +1,14 @@
 /**
  * Codeforces Round 1084 (Div. 3)
- * 
- * => E. Divisive Battle ( @c Rating )
- * 
+ *
+ * => E. Divisive Battle ( @c 1500 )
+ *
  * -> https://codeforces.com/contest/2200/problem/E
- * 
+ *
  * Submissions ~> https://codeforces.com/contest/2200/submission/364707125 By huanhuanonly
- * 
+ *
  * @b Game-theory and @b Number-theory ( @a prime-factorization )
- * 
+ *
  * ----February 28, 2026 [23h:51m:27s]----
 */
 
@@ -103,7 +103,7 @@ int main(void)
             if (auto ps = prime_factorization(v[i]); not ps.empty())
             {
                 std::ranges::sort(ps);
-                
+
                 if (ps.front() != ps.back())
                 {
                     alice = true;

@@ -1,16 +1,16 @@
 /**
  * Codeforces Round 1086 (Div. 2)
- * 
- * => D2. Tree Orientation (Hard Version) ( @c Rating )
- * 
+ *
+ * => D2. Tree Orientation (Hard Version) ( @c 2200 )
+ *
  * -> https://codeforces.com/contest/2208/problem/D2
- * 
+ *
  * Submissions ~> https://codeforces.com/contest/2208/submission/366917990 By huanhuanonly
- * 
+ *
  * @b Constructive
  * @b Disjoint-set
  * @b Trees
- * 
+ *
  * ----March 16, 2026 [20h:20m:23s]----
 */
 
@@ -194,12 +194,12 @@ int main(void)
                 {
                     return false;
                 }
-                
+
                 if ((mapp[u] & map[max.second]) != map[max.second])
                 {
                     return false;
                 }
-                
+
                 ans.emplace_back(u, max.second);
                 mapp[u] ^= map[max.second];
             }

@@ -1,11 +1,15 @@
 /**
  * Educational Codeforces Round 47 (Rated for Div. 2)
- * 
- * => F. Dominant Indices
- * 
- * -> https://codeforces.com/problemset/problem/1009/F (2300)
- * 
+ *
+ * => F. Dominant Indices ( @c 2300 )
+ *
+ * -> https://codeforces.com/contest/1009/problem/F
+ *
+ * Submissions ~> https://codeforces.com/contest/1009/submission/257176759 By huanhuanonly
+ *
  * @b Dsu-on-tree
+ *
+ * ----April 18, 2024 [21h:25m:34s]----
 */
 
 #include <bits/stdc++.h>
@@ -39,7 +43,7 @@ public:
     {
         tree[u].size = 1;
         tree[u].depth = tree[fa].depth + 1;
-        
+
         for (const auto& i : e[u])
         {
             if (i == fa)
@@ -48,7 +52,7 @@ public:
             build(i, u);
 
             tree[u].size += tree[i].size;
-            
+
             if (tree[i].size > tree[tree[u].wson].size)
                 tree[u].wson = i;
         }

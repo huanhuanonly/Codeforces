@@ -1,11 +1,15 @@
 /**
  * Codeforces Round 383 (Div. 1)
- * 
- * => D. Arpa's letter-marked tree and Mehrdad's Dokhtar-kosh paths
- * 
- * -> https://codeforces.com/problemset/problem/741/D (2900)
- * 
+ *
+ * => D. Arpa’s letter-marked tree and Mehrdad’s Dokhtar-kosh paths ( @c 2900 )
+ *
+ * -> https://codeforces.com/contest/741/problem/D
+ *
+ * Submissions ~> https://codeforces.com/contest/741/submission/257163166 By huanhuanonly
+ *
  * @b Dsu-on-tree
+ *
+ * ----April 18, 2024 [19h:42m:34s]----
 */
 
 #include <bits/stdc++.h>

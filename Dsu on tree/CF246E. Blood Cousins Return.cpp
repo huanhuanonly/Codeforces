@@ -1,11 +1,15 @@
 /**
  * Codeforces Round 151 (Div. 2)
- * 
- * => E. Blood Cousins Return
- * 
- * -> https://codeforces.com/problemset/problem/246/E (2400)
- * 
+ *
+ * => E. Blood Cousins Return ( @c 2400 )
+ *
+ * -> https://codeforces.com/contest/246/problem/E
+ *
+ * Submissions ~> https://codeforces.com/contest/246/submission/256092119 By huanhuanonly
+ *
  * @b Dsu-on-tree
+ *
+ * ----April 11, 2024 [17h:04m:07s]----
 */
 
 #include <bits/stdc++.h>
@@ -18,7 +22,7 @@ using ldouble = long double;
 class DsuOnTree
 {
 public:
-    
+
     const std::vector<std::vector<int>>& e;
     const std::vector<std::hash<std::string>::result_type>& v;
 
@@ -124,7 +128,7 @@ int main(void)
     /**
      * @note This tree may have multiple root nodes,
      * so connect multiple root nodes to a new unified root node.
-     * 
+     *
      * Here we add one to the numbers of all nodes
      * and let node number 1 serve as the unified root node.
     */

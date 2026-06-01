@@ -1,11 +1,15 @@
 /**
  * Toyota Programming Contest 2024#4（AtCoder Beginner Contest 348）
- * 
- * => E - Minimize Sum of Distances
- * 
+ *
+ * => E - Minimize Sum of Distances ( @c 475 )
+ *
  * -> https://atcoder.jp/contests/abc348/tasks/abc348_e
- * 
- * @b Trees
+ *
+ * Submissions ~> https://atcoder.jp/contests/abc348/submissions/52171566 By huanhuanonly
+ *
+ * @b Dfs on @a Trees
+ *
+ * ----April 08, 2024 [15h:45m:12s]----
 */
 
 #include <bits/stdc++.h>

@@ -1,14 +1,14 @@
 /**
  * Educational Codeforces Round 188 (Rated for Div. 2)
- * 
- * => E. Sum of Digits (and Again) ( @c Rating )
- * 
+ *
+ * => E. Sum of Digits (and Again) ( @c 1800 )
+ *
  * -> https://codeforces.com/contest/2204/problem/E
- * 
+ *
  * Submissions ~> https://codeforces.com/contest/2204/submission/367193352 By huanhuanonly
- * 
+ *
  * @b Constructive
- * 
+ *
  * ----March 18, 2026 [14h:42m:52s]----
 */
 
@@ -144,7 +144,7 @@ int main(void)
                     {
                         std::cout << std::string(cnt[j], '0' + j);
                     }
-                    
+
                     std::cout << ans << '\n';
                     break;
                 }

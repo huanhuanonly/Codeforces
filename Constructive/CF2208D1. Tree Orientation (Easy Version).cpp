@@ -1,16 +1,16 @@
 /**
  * Codeforces Round 1086 (Div. 2)
- * 
- * => D1. Tree Orientation (Easy Version) ( @c Rating )
- * 
+ *
+ * => D1. Tree Orientation (Easy Version) ( @c 1800 )
+ *
  * -> https://codeforces.com/contest/2208/problem/D1
- * 
+ *
  * Submissions ~> https://codeforces.com/contest/2208/submission/366875361 By huanhuanonly
- * 
+ *
  * @b Constructive
  * @b Disjoint-set
  * @b Trees
- * 
+ *
  * ----March 16, 2026 [10h:48m:15s]----
 */
 

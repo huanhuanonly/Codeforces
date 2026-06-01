@@ -1,11 +1,15 @@
 /**
  * Codeforces Round 316 (Div. 2)
- * 
- * => D. Tree Requests
- * 
- * -> https://codeforces.com/problemset/problem/570/D (2200)
- * 
+ *
+ * => D. Tree Requests ( @c 2200 )
+ *
+ * -> https://codeforces.com/contest/570/problem/D
+ *
+ * Submissions ~> https://codeforces.com/contest/570/submission/256078708 By huanhuanonly
+ *
  * @b Dsu-on-tree
+ *
+ * ----April 11, 2024 [14h:59m:11s]----
 */
 
 #include <bits/stdc++.h>
@@ -18,7 +22,7 @@ using ldouble = long double;
 class DsuOnTree
 {
 public:
-    
+
     const std::vector<std::vector<int>>& e;
     std::string_view s;
 
@@ -28,7 +32,7 @@ public:
     };
 
     std::vector<node> tree;
-    
+
     // fix each depth information
     std::vector<int> log;
 
@@ -42,7 +46,7 @@ public:
     {
         tree[p].size = 1;
         tree[p].depth = tree[fa].depth + 1;
-        
+
         for (const auto& i : e[p])
         {
             if (i == fa)
@@ -72,7 +76,7 @@ public:
         {
             if (i == fa or i == wson)
                 continue;
-            
+
             count(i, p, wson);
         }
     }
@@ -85,7 +89,7 @@ public:
         {
             if (i == fa)
                 continue;
-            
+
             clear(i, p);
         }
     }

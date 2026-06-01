@@ -1,14 +1,18 @@
 /**
  * Educational Codeforces Round 2
- * 
- * => E. Lomsat gelral
- * 
- * -> https://codeforces.com/problemset/problem/600/E (2300)
- * 
+ *
+ * => E. Lomsat gelral ( @c 2300 )
+ *
+ * -> https://codeforces.com/contest/600/problem/E
+ *
+ * Submissions ~> https://codeforces.com/contest/600/submission/256024109 By huanhuanonly
+ *
  * @b Dsu-on-tree
+ *
+ * ----April 11, 2024 [00h:24m:54s]----
 */
 
-#pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt") 
+#pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
 
 #include <bits/stdc++.h>
 
@@ -62,12 +66,12 @@ public:
     void count(int p, int fa, int wson)
     {
         ++cnt[c[p]];
-        
+
         if (cnt[c[p]] > mx)
             sum = c[p];
         else if (cnt[c[p]] == mx)
             sum += c[p];
-        
+
         mx = std::max(mx, cnt[c[p]]);
 
         for (const auto& i : e[p])
@@ -103,10 +107,10 @@ public:
 
         if (tree[p].wson)
             dfs(tree[p].wson, p, true);
-        
+
         count(p, fa, tree[p].wson);
         ans[p] = sum;
-        
+
         if (flag == false)
         {
             sum = 0;

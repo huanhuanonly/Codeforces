@@ -1,14 +1,14 @@
 /**
  * Educational Codeforces Round 187 (Rated for Div. 2)
- * 
- * => C. Test Generator ( @c Rating )
- * 
+ *
+ * => C. Test Generator ( @c 1500 )
+ *
  * -> https://codeforces.com/contest/2203/problem/C
- * 
+ *
  * Submissions ~> https://codeforces.com/contest/2203/submission/367294557 By huanhuanonly
- * 
+ *
  * @b Binary-search and @b Bitwise-AND
- * 
+ *
  * ----March 19, 2026 [09h:50m:38s]----
 */
 
@@ -61,14 +61,14 @@ int main(void)
         auto check = [&](uint64 mid) -> bool
         {
             std::array<uint64, 62> v{};
-    
+
             for (int i = 60; i >= 0; --i)
             {
                 if (s & (1ULL << i))
                 {
                     ++v[i + 1];
                 }
-    
+
                 if (not (m & (1ULL << i)))
                 {
                     v[i] = v[i + 1] * 2;

@@ -1,16 +1,16 @@
 /**
  * Codeforces Round 1086 (Div. 2)
- * 
- * => E. Counting Cute Arrays ( @c Rating )
- * 
+ *
+ * => E. Counting Cute Arrays ( @c 2700 )
+ *
  * -> https://codeforces.com/contest/2208/problem/E
- * 
+ *
  * Submissions ~> https://codeforces.com/contest/2208/submission/367261198 By huanhuanonly
- * 
+ *
  * @b DP on @b Bracket-tree
  * @b Monotonic-stack
  * @b Prefix-sum
- * 
+ *
  * ----March 19, 2026 [01h:07m:05s]----
 */
 
@@ -88,7 +88,7 @@ int main(void)
                     {
                         break;
                     }
-                    
+
                     for (int j = cnt; j >= 1; --j)
                     {
                         dp[j] = dp[j - 1] % mod;

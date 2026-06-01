@@ -1,11 +1,15 @@
 /**
  * Educational Codeforces Round 132 (Rated for Div. 2)
- * 
- * => E. XOR Tree
- * 
- * -> https://codeforces.com/problemset/problem/1709/E (2400)
- * 
+ *
+ * => E. XOR Tree ( @c 2400 )
+ *
+ * -> https://codeforces.com/contest/1709/problem/E
+ *
+ * Submissions ~> https://codeforces.com/contest/1709/submission/256253760 By huanhuanonly
+ *
  * @b Dsu-on-tree
+ *
+ * ----April 12, 2024 [22h:08m:52s]----
 */
 
 #include <bits/stdc++.h>

@@ -1,14 +1,14 @@
 /**
  * Educational Codeforces Round 187 (Rated for Div. 2)
- * 
- * => D. Divisibility Game ( @c Rating )
- * 
+ *
+ * => D. Divisibility Game ( @c 1700 )
+ *
  * -> https://codeforces.com/contest/2203/problem/D
- * 
+ *
  * Submissions ~> https://codeforces.com/contest/2203/submission/367298871 By huanhuanonly
- * 
+ *
  * @b Game-theory and @b Number-theory ( @a least-common-multiple )
- * 
+ *
  * ----March 19, 2026 [11h:10m:20s]----
 */
 
@@ -78,7 +78,7 @@ int main(void)
                 }
             }
         }
-        
+
         for (auto& y : b)
         {
             std::cin >> y;

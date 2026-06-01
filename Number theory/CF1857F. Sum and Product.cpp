@@ -1,14 +1,14 @@
 /**
  * Codeforces Round 891 (Div. 3)
- * 
+ *
  * => F. Sum and Product ( @c 1600 )
- * 
+ *
  * -> https://codeforces.com/contest/1857/problem/F
- * 
+ *
  * Submissions ~> https://codeforces.com/contest/1857/submission/331484838 By huanhuanonly
- * 
- * @b Math ( @a Quadratic-Formula )
- * 
+ *
+ * @b Number-theory ( @a quadratic-equation )
+ *
  * ----July 30, 2025 [01h:23m:05s]----
 */
 

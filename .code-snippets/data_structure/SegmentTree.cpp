@@ -288,23 +288,27 @@ public:
     { return at(size() - 1); }
 
 
-    template<typename _Tp, typename _Proj = std::identity>
-    requires std::assignable_from<reference, std::invoke_result_t<_Proj, const _Tp&>>
     constexpr void
-    set(size_type __l, size_type __r, const _Tp& __value, _Proj __proj = {})
-    { for_each(__l, __r, [&](reference __ref) -> bool { __ref = std::invoke(__proj, __value); return true; }); }
+    set(size_type __l, size_type __r, const value_type& __value)
+    { for_each(__l, __r, [&](reference __ref) -> bool { __ref = __value; return true; }); }
 
-    template<typename _Tp, typename _Proj = std::identity>
-    requires std::assignable_from<reference, std::invoke_result_t<_Proj, const _Tp&>>
     constexpr void
-    set(size_type __p, const _Tp& __value, _Proj __proj = {})
-    { set(__p, __p, __value, __proj); }
+    set(size_type __p, const value_type& __value)
+    { set(__p, __p, __value); }
 
-    template<typename _Tp, typename _Proj = std::identity>
-    requires std::assignable_from<reference, std::invoke_result_t<_Proj, const _Tp&>>
+    template<typename _Func>
     constexpr void
-    fill(const _Tp& __value, _Proj __proj = {})
-    { empty() ? void() : set(0, size() - 1, __value, __proj); }
+    apply(size_type __l, size_type __r, _Func __func)
+    { for_each(__l, __r, [&](reference __ref) -> bool { __func(__ref); return true; }); }
+
+    template<typename _Func>
+    constexpr void
+    apply(size_type __p, _Func __func)
+    { apply(__p, __p, __func); }
+
+    constexpr void
+    fill(const value_type& __value)
+    { empty() ? void() : set(0, size() - 1, __value); }
 
     constexpr void
     reset()

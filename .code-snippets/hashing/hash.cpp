@@ -1,7 +1,7 @@
 using hash_result_type = uint64;
 
-constexpr hash_result_type hash_base = std::array{449, 100003, 1000003, 1000000007}[0];
-constexpr hash_result_type hash_mod  = std::array{998244353ULL, 4294967291ULL}[0];
+constexpr hash_result_type hash_base = std::array{449ULL, 100003ULL, 1000003ULL, 1000000007ULL, 911382323ULL}[0];
+constexpr hash_result_type hash_mod  = std::array{998244353ULL, 4294967291ULL, 1ULL << 60}[0];
 
 static_assert(hash_base < hash_mod);
 static_assert(hash_mod <= std::numeric_limits<hash_result_type>::max() / hash_mod);

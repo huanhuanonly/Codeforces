@@ -1,4 +1,4 @@
-class DisjointSet
+class RollbackDisjointSet
 {
 public:
 
@@ -17,7 +17,7 @@ public:
     };
 
     explicit
-    DisjointSet(size_type __n)
+    RollbackDisjointSet(size_type __n)
         : _M_tree(__n)
     { reset(); }
 
@@ -62,6 +62,8 @@ public:
     void
     expand(size_type __n)
     {
+        assert(_M_history.empty());
+
         const size_type old_size = size();
         _M_tree.resize(old_size + __n);
 
@@ -74,13 +76,7 @@ public:
 
     void
     reset()
-    {
-        for (size_type i = 0; i < size(); ++i)
-        {
-            _M_tree[i].parent = i;
-            _M_tree[i].size = 1;
-        }
-    }
+    { rollback(0); }
 
     [[nodiscard]] size_type
     size() const

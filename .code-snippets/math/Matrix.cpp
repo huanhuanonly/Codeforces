@@ -199,7 +199,7 @@ public:
 
     template<typename _UnaryOperation>
     requires requires(_UnaryOperation __op, _Tp __x) { { __op(__x) } -> std::convertible_to<_Tp>; }
-    [[nodiscard]] constexpr Matrix&
+    constexpr Matrix&
     elementwise_transform_inplace(_UnaryOperation __unary_op = {}) noexcept
     {
         for (size_type i = 0; i < row(); ++i)

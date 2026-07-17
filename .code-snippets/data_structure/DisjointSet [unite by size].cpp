@@ -11,7 +11,7 @@ public:
     };
 
     explicit
-    DisjointSet(size_type __n)
+    DisjointSet(size_type __n = 0)
         : _M_tree(__n)
     { reset(); }
 

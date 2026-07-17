@@ -5,7 +5,7 @@ public:
     using size_type = int;
 
     explicit
-    DisjointSet(size_type __n)
+    DisjointSet(size_type __n = 0)
         : _M_parent(__n)
     { reset(); }
 

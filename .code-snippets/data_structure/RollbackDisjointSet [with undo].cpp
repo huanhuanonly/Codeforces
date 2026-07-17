@@ -17,9 +17,9 @@ public:
     };
 
     explicit
-    RollbackDisjointSet(size_type __n)
+    RollbackDisjointSet(size_type __n = 0)
         : _M_tree(__n)
-    { reset(); }
+    { for (size_type i = 0; i < __n; _M_tree[i] = node{.parent = i++, .size = 1}); }
 
     [[nodiscard]] size_type
     find(size_type u) const
